@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Marks</title>
+    <style>
+        body{
+            text-align: center;
+        }
+        div{
+            padding: 7px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Student name:- AKHIL</h2>
+    <h4>S.no:-20</h4>
+    <div>
+        <div>
+            <label for="Marks">English:-</label>
+            <input type="number" id="englishMarks" name="Subject" required>
+        </div>
+        <div>
+            <label for="Subject">Telugu:- 
+
+            </label>
+            <input type="number" id="teluguMarks" name="Subject">
+        </div>
+        <div>
+            <label for="Subject">Hindi:-</label>
+            <input type="number" id="hindiMarks"  name="Subject">
+        </div>
+        <div>
+            <label for="Subject">Maths:-</label>
+            <input type="number" id="mathsMarks" name="Subject">
+        </div>
+        <div>
+            <label for="Subject">Social:-</label>
+            <input type="number" id="socialMarks" name="Subject">
+        </div>
+        <div>
+            <label for="Subject">Science</label>
+            <input type="number" id="scienceMarks" name="Subject">
+        </div>
+        <button onclick="getMarks()" >Submit Marks</button>
+
+    </div>
+    <h3 id > Student Result:- <span id="passOrFail" > </span></h3>
+
+    <h3>Student Marks:- <span id="sudentMarks" ></span></h3>
+    <h3>Student Grade:- <span id="gradePoints" ></span></h3>
+    <h3>Student Percentage:- <span id="studentPercentage" ></span> </h3>
+
+
+    <script src="task.js" >
+
+    </script>
+</body>
+</html>
